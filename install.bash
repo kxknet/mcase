@@ -1,3 +1,4 @@
+yum -y install supervisord mc
 mkdir -p /home/centos/sup/
 cd /home/centos/sup/
 wget https://raw.githubusercontent.com/kxknet/mcase/master/start-caddy.conf
