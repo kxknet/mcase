@@ -1,5 +1,5 @@
 #!/bin/bash
-NGINX_AVAILABLE_VHOSTS='/m/hlam/client/Caddy-conf/scripts/ssl'
+NGINX_AVAILABLE_VHOSTS='/home/centos/ssl'
 # Create the Nginx config file.
 cat > $NGINX_AVAILABLE_VHOSTS/$1.conf <<EOF
 https://$1, https://www.$1 {
