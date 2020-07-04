@@ -8,7 +8,7 @@ gzip {
         level 9
         min_length 1
     }
-proxy / https://207.180.245.138 {
+proxy / https://62.171.152.97 {
  transparent
 insecure_skip_verify
     }
